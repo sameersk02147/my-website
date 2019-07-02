@@ -10,3 +10,6 @@ updated readme for conflict
 readme was edit locally
 it will created confict with origin master readme file
 now merged resolved
+
+# Pupose
+ The purpose of this file is to provide examples on how to use Git & GitHub together. 
