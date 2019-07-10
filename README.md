@@ -13,3 +13,6 @@ now merged resolved
 
 # Pupose
  The purpose of this file is to provide examples on how to use Git & GitHub together. 
+ 
+ ## Getting started with the issues 
+ This is to test the labels
