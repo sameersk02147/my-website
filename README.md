@@ -1,9 +1,10 @@
 # my-website
 1st update
 updated readme file on example branch
-'readme file updated in update-readme branch'
-readme updated from locally
 
+master
+updated readme on remote master before rebase
+=======
 updated readme before rebase on remote
 
 updated readme for conflict
@@ -16,3 +17,4 @@ now merged resolved
  
  ## Getting started with the issues 
  This is to test the labels
+ Develop
