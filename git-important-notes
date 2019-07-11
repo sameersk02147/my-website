@@ -1,0 +1,81 @@
+#Git Important notes to remember
+
+1. git reset HEAD README.MD (to unstage the commit)
+2. git checkout --README.MD (for clean working tree)
+3. git config --global alisa.hist "log --online --graph --decorate --all" (to set hist as alisa)
+4. git config --global --list (to list out in user and other details)
+5. git mv example.txt demo.txt (to rename the file)
+6. git rm demo.txt (to delete)
+7. git touch file.txt (to create)
+8. git add -u (for deletion)
+9. git add -A (for both addition and deletion)
+10. git commit -m "file renamed"
+11. add exact file name in .gitignore to untrack by git example: if we add app.log in .gitignore it wont track app.log file any more
+12. git diff (to know what changes and diff b/w two files)
+13. git difftool (same as git diff)
+14. fast forward merge (merge like it is never existed and merged completely with master branch. or use no fast forward
+15. HEAD points to the last commit of the current branch
+16.git checkout -b <branch name> (to create and move onto the branch)
+17. git checkout master
+18. git merge updates (to merge updates branch to master being in master branch)
+19. git branch -d updates (to delete the updates branch)
+20. git mergetool (if conflict appears)
+21. git tag -a v1.0 -m "your message" (for creating tag with anotation)
+22. git tag --list (to list tags)
+23. git show (to git version and info)
+24. git stash (to save and work later)
+25. git stash list (to get wip list)
+26. git stash pop (to get on wip and dro the changes same time) then commit the changes for clearn working directory
+27. git reset <id> --soft/mixed/hard (to change header pointer)
+28. git reflog (all the action taken while in the repo)
+29. git reset --hard <commit id> (time travel even after hard reset)
+30. git remote -v (to view remote repositories
+31. git remote add origin <user github link> (to add remote repo)
+32. git push -u origin master --tags (to push tags to github)
+
+Setup for SSH Authentication
+33. mkdir .ssh
+34. cd .ssh
+35. ssh-keygen -t -rsa -C "user@email.com"
+36. vi id_rsa.pub (copy the public key and paste it in git setting ssh key authentication coloum)
+37. ssh -T git@github.com (successfully config ssh key)
+38. git clone git@github.com:sameersk02147/my-website.git (cloning the git)
+39. git clone git@github.com:sameersk02147/my-website.git website (to clone in specific folder website)
+40. git remote set-url origin git@github.com:sameersk02147/website.git (use it in orde to update remote changes to local repo)
+
+
+Git Branches:
+41. git branch -d <branch name> (to delete the branch)
+42. git branch -a (to list the github changes)
+43. git fetch -p (to update delete branch locally)
+44. git config --global -e (to see config files)
+45. git config --global core.editor "vim" (to edit defualt editor)
+46. git push origin :update-readme to delete the remote branch
+47. git pull --rebase (to diverge the changes and bring your local changes on top against any changes on remotely)
+48. git tag -d v0.1-alpha (to delete the tags)
+49. git fetch -p (to fetch reference of the remote branch)
+50. git tag -f unstable <commit id> to repoint the head direction)
+51. git push -f origin unstable (to refelect the same changes on github)
+52. git commit -m "ignore MAC OS temp files, close #5" (to associate the commit with the comment on github) 
+53. git remote add <upstream> <git repo link>
+54. git fetch --all (to fetch all the refrences)
+55. git checkout -b shared origin/shared (to get the updated ref on local repo)
+
+
+
+
+Note: 
+1. git pull will note pull the tags
+2. git tag and release are bit different. In release we can see the info of that relase underneath and we can add that in github on tag edit section
+3. Develop@{3days} to compare between commits,branches, tags on github
+4. master@{2015-08-25}
+5. HEAD@{3}
+
+
+
+
+
+
+
+
+
