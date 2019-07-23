@@ -1,0 +1,49 @@
+# Linux #
+df -ah
+du -ah
+netstat -tulpn (Port open)
+ps aux |grep nginx (CPU Usage)
+ls /mnt (mount USB)
+man ps
+free -m/ -g (to see used space)
+sar -u (cpu usage)
+vimstat sar -u 1 3 (total cpu usage)
+ln -s <Original Path> <use path> (softlink)
+ln topprocs.sh tp (hard link with the name tp)
+nohup (to runn in background)
+find / -name context/xml
+crontab sameer.txt (Month Hour DateofMonth Month DateofWeek)
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name  command to be executed
+crontab -l (to list cron jobs)
+crontab -e (to edit crontab)
+crontab -r (Delete the current cron jobs)
+crontab -r -u username (Delete job for specific user. Must be run as root user)
+DMZ (De militarize zone)
+
+## Sharing dir using NFS ##
+/etc/exportfs <dir name> <IP or Netowkr ID> (options)
+restart the nfs
+
+Q. How to restore entaire FTP server?
+A. can't restore complete ftp server instead install core o.s and restore config files from tape backup devices
+
+Avoid Telnet as comm protocal because it uses plain text fwd
+
+Q. Diff b/w cron & anacron
+A. Min granualarity with cron is min and days with anacron
+cron can be run by normal user & anacron by super or root user
+cron execute when system up and running, anacron execute even when system was down
+
+requota shows
+
+
+
+
+
