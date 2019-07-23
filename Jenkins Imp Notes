@@ -1,0 +1,4 @@
+1. Jenkins v1.7 
+2. Plugins: Declerative pipeline 2.6+, pipeline utility steps, nexus artifact uploader, 
+Publish over SSH, Git, Invoke Maven, Sonarcube, Green Ball, Pipeline plugins, Job Configuration History(Plugin to track min changes also)
+3. Jenkinsfile: Jenkins pipeline are written into text files called Jenkinsfile
