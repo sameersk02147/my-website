@@ -1,6 +1,6 @@
 # Linux #
-df -ah
-du -ah
+df -ah #for dir
+du -ah #for files
 netstat -tulpn (Port open)
 ps aux |grep nginx (CPU Usage)
 ls /mnt (mount USB)
@@ -11,7 +11,8 @@ vimstat sar -u 1 3 (total cpu usage)
 ln -s <Original Path> <use path> (softlink)
 ln topprocs.sh tp (hard link with the name tp)
 nohup (to runn in background)
-find / -name context/xml
+find / -name context.xml  #to find file with name context.xml
+find /home -type d -name "dir name"     #to find dir under home dir
 crontab sameer.txt (Month Hour DateofMonth Month DateofWeek)
 # Example of job definition:
 # .---------------- minute (0 - 59)
